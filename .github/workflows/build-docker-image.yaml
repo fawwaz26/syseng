@@ -20,4 +20,4 @@ jobs:
           password: ${{ secrets.DOCKER_PASSWORD }}
 
       - name: Build Docker Image
-        run: docker build -t pawas26/nama_image:tag .
+        run: docker build -t pawas26/tes:latest .
